@@ -41,6 +41,7 @@ export const Player = () => {
     }
 
     console.log('Data from useQuery from Player component ' + ' ' + data);
+    console.log('Test log');
 
     const fetchedData = data ? data.getVideos : null;
 
